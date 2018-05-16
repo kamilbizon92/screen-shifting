@@ -17,6 +17,17 @@ body {
   background-color: red;
 }
 
+#left-menu {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: -100%;
+  width: 100vw;
+  height: 100%;
+  background-color: green;
+  z-index: 1;
+}
+
 #right-menu {
   position: absolute;
   display: none;
